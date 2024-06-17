@@ -21,19 +21,20 @@ export const Projects = () => {
       buttonUrl: "https://e-com-website-san.netlify.app/"
     },
     {
+      title: "To-Do List",
+      description: "",
+      imgUrl: projImg5,
+      buttonText: "View",
+      buttonUrl: "https://itsreacttodo.netlify.app/"
+    },
+    {
       title: "Job Portal",
       description: "",
       imgUrl: projImg2,
       buttonText: "View",
       buttonUrl: "https://github.com/Sankeerthanakm/jobportal.git"
     },
-    {
-      title: "To-Do List",
-      description: "",
-      imgUrl: projImg5,
-      buttonText: "View",
-      buttonUrl: "https://github.com/Sankeerthanakm/TodoReact.git"
-    },
+   
     {
       title: "Portfolio",
       description: "",
@@ -45,7 +46,7 @@ export const Projects = () => {
       title: "Real time fire detection system",
       description: "",
       imgUrl: projImg3,
-      buttonText: "View",
+      // buttonText: "View",
       buttonUrl: "#"
     },
     
@@ -54,7 +55,7 @@ export const Projects = () => {
       title: "Social Media Platform",
       description: "",
       imgUrl: projImg4,
-      buttonText: "View",
+      // buttonText: "View",
       buttonUrl: "#"
     },
     
