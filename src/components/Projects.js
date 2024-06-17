@@ -1,9 +1,9 @@
 import React from "react";
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/ecompic.png";
-import projImg2 from "../assets/img/job portal.png";
-import projImg3 from "../assets/img/firepic.png";
+import projImg1 from "../assets/img/cara.png";
+import projImg2 from "../assets/img/portaljo.png";
+import projImg3 from "../assets/img/firede.png";
 import projImg4 from "../assets/img/socialmedia.png";
 import projImg5 from "../assets/img/todolistpic.jpg";
 import projImg6 from "../assets/img/portpic.png";
@@ -71,7 +71,7 @@ export const Projects = () => {
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                   <h2>Projects</h2>
-                  <p>Check out my recent projects</p>
+                  <p>Check out my recent projects.Here you'll find a selection of my work, demonstrating my skills and passion for web development, particularly in the MERN stack. Each project represents a significant learning experience and a step forward in my journey as a developer. I invite you to explore and learn more about the creative and technical aspects of my work.</p>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                       <Nav.Item>
